@@ -8,7 +8,10 @@ export function DashboardLayout({ children }) {
       <Sidebar />
       <div className="flex-1">
         <Header />
-        <main className="p-4">
+        <main className="p-
+         overflow-y-auto
+         max-h-[92vh]  
+        ">
           {children}
         </main>
       </div>
