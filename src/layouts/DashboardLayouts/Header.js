@@ -26,6 +26,8 @@ const Header = () => {
           </div>
         </section>
         {/* GOK Flag End */}
+        
+        <h1 className='font-bold text-[24px]'>NOC System Observability & Security(SOS) System</h1>
 
         {/* Date && Notification Start */}
         <section className="flex items-center space-x-8">
